@@ -16,7 +16,7 @@ jobs:
     unit-testing:
         name: Unit Testing
         container: 
-          image: node:20
+          image: 'node:20'
         runs-on: ubuntu-latest
         steps:
         - name: Checkout Repository
